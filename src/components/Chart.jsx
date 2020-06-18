@@ -2,8 +2,8 @@ import React, { Component } from 'react'
 import { Bar } from 'react-chartjs-2';
 
 class Chart extends Component {
-    constructor(props) {
-        super(props)
+    constructor({data}) {
+        super({data})
         this.state = { 
             data:{
                 labels: ['Gym','Restaurants','Shopping','Groceries',"Furnishings","Vacation",'Pharmacy','Clothing','Amusement','Entertainment','Parking','Transfer','Internet','Taxes','Utilities','Music','Travel'],
